@@ -1,0 +1,15 @@
+proxies:
+  - name: "HNIX_CMCC_HK"
+    type: "socks5"
+    server: "100.70.4.6"
+    port: 27788
+
+proxy-groups:
+  - name: "Proxy Group"
+    type: select
+    proxies:
+      - "HNIX_CMCC_HK"
+      - "DIRECT"
+
+rules:
+  - MATCH, "Proxy Group"
