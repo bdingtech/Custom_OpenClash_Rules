@@ -3,20 +3,12 @@ proxies:
     type: "socks5"
     server: "100.70.4.6"
     port: 27788
-    
-  - name: "🇭🇰 Hong Kong丨01丨dogssr"
-    type: "ss"
-    server: "hk001.dogvip.site"
-    port: 16001
-    cipher: "aes-256-gcm"
-    password: "836c89fa-bc32-490c-895d-7e194798f66a"
 
 proxy-groups:
   - name: "Proxy Group"
     type: select
     proxies:
       - "HNIX_CMCC_HK"
-      - "🇭🇰 Hong Kong丨01丨dogssr"
       - "DIRECT"
 
 rules:
