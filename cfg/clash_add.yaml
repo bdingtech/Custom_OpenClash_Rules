@@ -3,6 +3,10 @@ proxies:
     type: "socks5"
     server: "100.70.4.6"
     port: 27788
+  - name: "SHIX_IPLC_JP"
+    type: "socks5"
+    server: "10.10.0.1"
+    port: 6887
   - name: "🇭🇰 ×2 sntp"
     type: "ss"
     server: "oiplc23.nod3.org"
