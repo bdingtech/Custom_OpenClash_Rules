@@ -7,33 +7,6 @@ proxies:
     type: "socks5"
     server: "10.10.0.1"
     port: 6887
-  - name: "🇭🇰 ×2 sntp"
-    type: "ss"
-    server: "oiplc23.nod3.org"
-    port: 32423
-    cipher: "aes-128-gcm"
-    password: "4913fd32-4735-462a-925d-739f1373117a"
-  
-  - name: "🇭🇰 ×2 sntp"
-    type: "ss"
-    server: "oiplc23.nod3.org"
-    port: 21941
-    cipher: "aes-128-gcm"
-    password: "4913fd32-4735-462a-925d-739f1373117a"
-  
-  - name: "🇭🇰 ×2 sntp"
-    type: "ss"
-    server: "oiplc23.nod3.org"
-    port: 21116
-    cipher: "aes-128-gcm"
-    password: "4913fd32-4735-462a-925d-739f1373117a"
-  
-  - name: "🇭🇰 ×2 sntp"
-    type: "ss"
-    server: "oiplc23.nod3.org"
-    port: 36511
-    cipher: "aes-128-gcm"
-    password: "4913fd32-4735-462a-925d-739f1373117a"
 
 proxy-groups:
   - name: "Proxy Group"
